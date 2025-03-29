@@ -56,7 +56,7 @@ func TestAddGetDelete(t *testing.T) {
 
 	require.NoError(t, err)
 
-	stored, err = store.Get(parcel.Number)
+	_, err = store.Get(parcel.Number)
 
 	require.Equal(t, sql.ErrNoRows, err)
 }
