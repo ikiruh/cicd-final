@@ -2,9 +2,9 @@ name: Go
 
 on:
   push:
-    branches: [ "create-jobs", "try" ]
+    branches: [ "create-jobs", "try-second" ]
   pull_request:
-    branches: [ "create-jobs", "try" ]
+    branches: [ "create-jobs", "try-second" ]
 
 jobs:
 
